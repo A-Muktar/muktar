@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --blue:#4824f99c;
+    --blue:#1c1cb59c;
     --yellow:#f9ca24;
 
 }
@@ -69,7 +69,7 @@ section{
 }
 
 .btn:hover{
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 .heading{
@@ -159,14 +159,17 @@ header .navbar ul li a:hover{
 
 .home{
     display: flex;
+    background: url('./eveningCoding.gif') no-repeat;
+    background-size: cover;
     justify-content: center;
     flex-flow: column;
     padding:0 15rem;
 }
 
 .home h3{
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     color:#fff;
+    background: #333.003;
 }
 
 .home h1{
@@ -175,7 +178,7 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-    color:var(--yellow);
+    color:blue;
 }
 
 .home p{
@@ -369,7 +372,12 @@ header .navbar ul li a:hover{
 
 .contact .row .content .info h3 i{
     padding-right: 1rem;
-    color:var(--yellow);
+    /* color:var(--blue); */
+}
+
+
+.contact .row .content .info h3 i:hover{
+    color: dodgerblue;
 }
 
 .top{
