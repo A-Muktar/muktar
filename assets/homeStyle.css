@@ -159,7 +159,8 @@ header .navbar ul li a:hover{
 
 .home{
     display: flex;
-    background: url('./eveningCoding.gif') no-repeat;
+    background: url('./eveningCoding.gif');
+    background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     flex-flow: column;
