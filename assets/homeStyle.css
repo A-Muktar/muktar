@@ -12,7 +12,6 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
     transition: all .2s linear;
 }
 
@@ -22,7 +21,7 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 80.5%;
     overflow-x: hidden;
 }
 
