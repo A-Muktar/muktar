@@ -112,7 +112,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border:.7rem solid #ffffff;
 }
 
 header .user .name{
@@ -415,6 +415,58 @@ header .navbar ul li a:hover{
     bottom:7.5rem; right: 2rem;
     z-index: 100;
     display: none;
+}
+
+/* SKILLS SECTION */
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    margin: 5px 0px 15px 0px;
+    border-radius: 15px;
+}
+
+.skill  {
+     color: white;
+    padding: .8%;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.html {
+    background-color: rgb(116, 194, 92);
+    width: 95%;
+}
+
+ .css {
+    background-color: rgb(116, 194, 92);
+    width: 80%;
+}
+
+.python {
+    background-color: rgb(116, 194, 92);
+    width: 62%;
+}
+
+.bootstrap {
+    background-color: rgb(116, 194, 92);
+    width: 85%;
+}
+
+.django {
+    background-color: rgb(174, 194, 83);
+    width: 45%;
+}
+
+.js {
+    background-color: rgb(239, 147, 26);
+    width: 30%;
+}
+
+.java {
+    background-color: rgb(239, 26, 26);
+    width: 15%;
 }
 
 
