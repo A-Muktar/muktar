@@ -248,9 +248,11 @@ header .navbar ul li a:hover{
 .about .row .counter .box{
     width:20rem;
     background:hsl(246, 11%, 22%);;
+    /* border: -2.5rem solid  hsl(246, 18%, 15%) ; */
     text-align: center;
     padding: 2rem;
     margin:2rem;
+    border-radius: 10px;
 }
 
 .about .row .counter .box span{
@@ -454,6 +456,10 @@ header .navbar ul li a:hover{
     width: 85%;
 }
 
+.sql {
+    background-color: rgb(174, 194, 83);
+    width: 52%;
+}
 .django {
     background-color: rgb(174, 194, 83);
     width: 45%;
